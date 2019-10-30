@@ -12,7 +12,8 @@
     "test": "mocha --reporter spec --full-trace lib/test/tests.js",
     "posttest": "npm run lint",
     "compile": "tsc",
-    "lint": "tslint -c tslint.json test/**/*.ts; tslint src/**/*.ts"
+    "lint": "tslint -c tslint.json test/**/*.ts; tslint src/**/*.ts",
+    "postinstall": "npm run compile"
   },
   "repository": {
     "type": "git",
