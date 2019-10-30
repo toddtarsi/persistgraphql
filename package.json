@@ -1,7 +1,7 @@
 {
-  "name": "persistgraphql",
-  "version": "0.3.11",
-  "description": "A build tool for GraphQL projects.",
+  "name": "persistgraphql-audit",
+  "version": "0.3.12",
+  "description": "A build tool for GraphQL projects, maintained to keep things up to date.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "typescript": {
@@ -19,12 +19,12 @@
     "type": "git",
     "url": "git+https://github.com/Poincare/apollo-query-whitelisting.git"
   },
-  "author": "Dhaivat Pandya",
+  "author": "Dhaivat Pandya (Todd Tarsi maintains this fork)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Poincare/persistgraphql/issues"
+    "url": "https://github.com/Poincare/persistgraphql-audit/issues"
   },
-  "homepage": "https://github.com/Poincare/persistgraphql#readme",
+  "homepage": "https://github.com/Poincare/persistgraphql-audit#readme",
   "bin": {
     "persistgraphql": "./bin/persistgraphql"
   },
