@@ -1,6 +1,6 @@
 {
   "name": "persistgraphql-audit",
-  "version": "0.3.12",
+  "version": "0.3.14",
   "description": "A build tool for GraphQL projects, maintained to keep things up to date.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -12,8 +12,7 @@
     "test": "mocha --reporter spec --full-trace lib/test/tests.js",
     "posttest": "npm run lint",
     "compile": "tsc",
-    "lint": "tslint -c tslint.json test/**/*.ts; tslint src/**/*.ts",
-    "postinstall": "npm run compile"
+    "lint": "tslint -c tslint.json test/**/*.ts; tslint src/**/*.ts"
   },
   "repository": {
     "type": "git",
